@@ -255,13 +255,13 @@ header {
 }
 
 .coffee_shop img {
-  width: 5%;
-  height: 5%;
+  width: 9%;
+  height: 9%;
   display: flex;
   justify-self: start;
   padding-top: 5px;
   padding-right: 5px;
-  padding-left: 2px;
+  padding-left: 30px;
 }
 
 /* GRID 2 */
@@ -269,6 +269,7 @@ header {
 .grid_2 {
   width: 100%;
   height: 75vh;
+  /* background-image: url("../img/slate.jpg"); */
   background-color: #331c03;
   background-size: cover;
   background-position: center;
@@ -423,11 +424,11 @@ header {
   padding-left: 40px;
 }
 
-.grid_4 img {
+.grid_4 iframe {
   grid-column: 4;
   grid-row: 2;
-  width: 70%;
-  height: 150%;
+  width: 90%;
+  height: 180%;
   border-radius: 10px;
   padding-left: 100px;
 }
